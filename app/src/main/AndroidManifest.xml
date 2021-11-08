@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ArabicLetters">
         <activity
+            android:name=".practivepage"
+            android:exported="false" />
+        <activity
             android:name=".learn_letters"
             android:exported="false" />
         <activity

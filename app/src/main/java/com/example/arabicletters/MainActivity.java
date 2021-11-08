@@ -17,18 +17,31 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
 
 
+                                      @Override
+                                      public void onClick(View v) {
+                                          openNewActivity();
+                                      }
+                                  });
+
+                button = (Button) findViewById(R.id.textView8);
+        button.setOnClickListener(new View.OnClickListener() {
+
+
             @Override
             public void onClick(View v) {
-                openNewActivity();
+                opentestActivity();
             }
-        });
 
 
 
-    }
+    });}
     public void openNewActivity(){
         Intent intent = new Intent(this, learn_letters.class);
         startActivity(intent);
     }
+        public void opentestActivity(){
+            Intent intent = new Intent(this, practivepage.class);
+            startActivity(intent);
+        }
 
 }
