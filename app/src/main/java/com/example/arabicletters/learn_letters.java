@@ -28,6 +28,30 @@ public class learn_letters extends AppCompatActivity {
                 //if button2 is clicked than set image2
                 im.setImageResource(R.drawable.toungbase);
                 break;
+            case R.id.button3:
+                //if button1 is clicked than set image1
+                im.setImageResource(R.drawable.btteeth);
+                break;
+            case R.id.button4:
+                //if button2 is clicked than set image2
+                im.setImageResource(R.drawable.first2teeth);
+                break;
+            case R.id.button5:
+                //if button1 is clicked than set image1
+                im.setImageResource(R.drawable.nose);
+                break;
+            case R.id.button6:
+                //if button2 is clicked than set image2
+                im.setImageResource(R.drawable.tounground);
+                break;
+            case R.id.button7:
+                //if button1 is clicked than set image1
+                im.setImageResource(R.drawable.toungtip);
+                break;
+            case R.id.button8:
+                //if button2 is clicked than set image2
+                im.setImageResource(R.drawable.toungup);
+                break;
         }
     }
 }
