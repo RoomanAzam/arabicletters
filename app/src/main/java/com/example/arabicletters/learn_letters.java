@@ -3,6 +3,8 @@ package com.example.arabicletters;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 public class learn_letters extends AppCompatActivity {
 
@@ -10,5 +12,22 @@ public class learn_letters extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_learn_letters);
+    }
+
+    public void mess(View v) {
+        //initialize image view object
+        ImageView im=(ImageView)findViewById(R.id.imageView1);
+        //get clicked button id from view object
+        switch(v.getId())
+        {
+            case R.id.button:
+                //if button1 is clicked than set image1
+                im.setImageResource(R.drawable.throat);
+                break;
+            case R.id.button2:
+                //if button2 is clicked than set image2
+                im.setImageResource(R.drawable.toungbase);
+                break;
+        }
     }
 }
