@@ -74,8 +74,8 @@
         <!--NextButton-->
         <ImageButton
             android:id="@+id/next_button"
-            android:layout_width="189dp"
-            android:layout_height="match_parent"
+            android:layout_width="181dp"
+            android:layout_height="101dp"
             android:backgroundTint="#DFD2D1"
             android:src="@drawable/forward"
             android:text="@string/next_text" />

@@ -6,15 +6,17 @@
     <string name="false_text">false</string>
     <string name="correct_answer">That\'s correct</string>
     <string name="wrong_answer">That\'s incorrect</string>
-    <string name="a">Simran loves Chocolates.</string>
-    <string name="b">Simran Knows Following Skills:\n \t
-                     <b>Ballet</b>\n \t
-                     <b>HipHop</b></string>
-    <string name="c">Do You Think Simran Believes In:\n \t
-                     <b>Luck!!!</b></string>
-    <string name="d">Do You Think Simran Wants To Visit <b>Italy</b></string>
-    <string name="e">Simran Loves Loyalty.</string>
-    <string name="f">Simran Sleeps Less</string>
+    <string name="a">Is it Ghunna letters.</string>
+    <string name="b">Is it pronounced byRounding both lips and not
+
+closing the mouth.
+                    </string>
+    <string name="c"> Is it Shajariyah-
+Haafiyah letter
+                     </string>
+    <string name="d">Do You Think it is Nit-eeyah letters</string>
+    <string name="e">is it Tarfiyah letters.</string>
+    <string name="f">is it Nit-eeyah</string>
     <string name="next_text">next</string>
     <string name="prev_text">previous</string>
 </resources>
