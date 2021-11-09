@@ -12,8 +12,8 @@
         android:layout_height="762dp"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/all"
-        tools:layout_editor_absoluteX="-61dp"
-        tools:layout_editor_absoluteY="5dp" />
+        tools:layout_editor_absoluteX="-66dp"
+        tools:layout_editor_absoluteY="-10dp" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -23,8 +23,9 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="142dp"
-        android:layout_height="84dp"
+        android:layout_width="143dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
         android:background="@color/black"
         android:onClick="mess"
         android:text="Halqiyah"
@@ -32,6 +33,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toEndOf="@+id/button8"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
 
@@ -39,6 +41,7 @@
         android:id="@+id/button8"
         android:layout_width="135dp"
         android:layout_height="78dp"
+        android:layout_marginTop="16dp"
         android:background="@color/black"
         android:onClick="mess"
         android:text="Shajariyah-Haafiyah"
@@ -50,8 +53,9 @@
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="147dp"
-        android:layout_height="92dp"
+        android:layout_width="131dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
         android:background="@color/black"
         android:onClick="mess"
         android:text="Tarfiyah"
@@ -59,13 +63,14 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="153dp"
-        android:layout_height="91dp"
+        android:layout_width="137dp"
+        android:layout_height="74dp"
         android:background="@color/black"
         android:onClick="mess"
         android:text="Lisaveyah"
@@ -105,26 +110,23 @@
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="188dp"
-        android:layout_height="58dp"
-        android:layout_marginEnd="160dp"
+        android:layout_width="138dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
         android:background="@color/black"
         android:onClick="mess"
         android:text="Nit-eeyah"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.393" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="150dp"
-        android:layout_height="82dp"
+        android:layout_width="148dp"
+        android:layout_height="65dp"
         android:layout_marginTop="12dp"
         android:background="@color/black"
         android:onClick="mess"
