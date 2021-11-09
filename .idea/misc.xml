@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/arabicletters/app/src/main/res/layout-land/activity_learn_letters.xml" value="0.14991181657848324" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/arabicletters/app/src/main/res/layout-land/activity_main.xml" value="0.14991181657848324" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/arabicletters/app/src/main/res/layout-land/activity_practivepage.xml" value="0.14991181657848324" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/arabicletters/app/src/main/res/layout/activity_learn_letters.xml" value="0.23596014492753623" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/arabicletters/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/arabicletters/app/src/main/res/layout/activity_practivepage.xml" value="0.16979166666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/arabicletters/app/src/main/res/layout/layout.xml" value="0.16302083333333334" />
       </map>
     </option>
   </component>
