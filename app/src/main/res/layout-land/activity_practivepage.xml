@@ -4,10 +4,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#FFFFFF"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/all"
+    android:backgroundTintMode="add"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <!--ImageView used for showing pictures along with questions-->
@@ -40,22 +41,22 @@
         <!--TrueButton-->
         <Button
             android:id="@+id/true_button"
-            android:layout_marginRight="20dp"
-            android:backgroundTint="#5BD91B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="@string/true_text" />
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#5BD91B"
+            android:text="@string/true_text"
+            android:textSize="20sp" />
 
         <!--FalseButton-->
         <Button
             android:id="@+id/false_button"
-            android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
-            android:backgroundTint="#E33328"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="@string/false_text" />
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#E33328"
+            android:text="@string/false_text"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
